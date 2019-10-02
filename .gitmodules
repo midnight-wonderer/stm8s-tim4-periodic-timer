@@ -1,0 +1,4 @@
+[submodule "vendor/stm8s"]
+	path = vendor/stm8s
+	url = https://github.com/the-cave/stm8s-header.git
+	branch = v1.1.0
