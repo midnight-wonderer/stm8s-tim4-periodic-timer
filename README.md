@@ -21,7 +21,6 @@ But, for now, TIM4 should be good for most of the cases.
 
 * [STM8S header](https://github.com/the-cave/stm8s-header)
 
-
 ## How to use this?
 
 Just include the header to your project.
