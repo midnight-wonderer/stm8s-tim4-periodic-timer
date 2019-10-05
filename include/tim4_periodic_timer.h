@@ -13,7 +13,7 @@
 typedef struct _tim4_periodic_timer__config {
   TIM4_Prescaler_TypeDef prescaler;
   uint8_t reload_value;
-  void (*ticked)();
+  void (*ticked)(void);
 } Tim4PeriodicTimer_Config;
 
 // example config parameters for 2 MHz PSC
