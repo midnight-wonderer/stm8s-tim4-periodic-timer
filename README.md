@@ -6,7 +6,7 @@ It is a programmable interval timer implementation for STM8S using TIM4 as an in
 
 ## Why the implementation is so specific? No hardware abstraction?
 
-The whole project is a hardware abstraction for STM8S.
+The whole project is the hardware abstraction for STM8S.
 I could create the same thing for AVR, MCS-51, etc.
 And each of them will be easily interchanged based on an underlying CPU.
 
@@ -17,7 +17,7 @@ This library promotes composablity over genericity.
 TIM4 is the least powerful timer of STM8 that fits the bill. I could create a similar project using another timer if a situation arises.
 But, for now, TIM4 should be good for most of the cases.
 
-## Source dependencies
+## Source code dependencies
 
 * [STM8S header](https://github.com/the-cave/stm8s-header)
 
@@ -62,6 +62,11 @@ int main() {
   }
 }
 ~~~
+
+## Build recommendations
+
+The opinionated way to build this library is by using the [Universal STM8 Builder](https://github.com/midnight-wonderer/universal-stm8-builder).
+You can have it your way if you are also opinionated yourself.
 
 ## License
 
