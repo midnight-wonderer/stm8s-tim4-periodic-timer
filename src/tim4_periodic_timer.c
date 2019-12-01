@@ -4,7 +4,7 @@
 
 #include "tim4_periodic_timer.h"
 
-void (*tick_handler)();
+static void (*tick_handler)();
 
 void tim4_periodic_timer__setup(Tim4PeriodicTimer_Config* config) {
   TIM4->PSCR = config->prescaler;
